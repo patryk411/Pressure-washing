@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  font-size: 2.6em;
+  background: transparent;
+  z-index: 5;
+}
+.navbar .btn-nav {
+  font-size: 0.8em;
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  width: 180px;
+}
+.navbar .btn-nav .btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+.navbar .navbar-brand {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .navbar-brand img {
+  font-size: 0.2em;
+}
+.navbar .navbar-collapse {
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  list-style: none;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+  color: #fff;
+  font-size: 0.5em;
+}
+
+.header {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 0;
+}
+.header .carousel .carousel-inner .carousel-item .carousel-img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.header .carousel .carousel-control-prev {
+  top: 50%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.header .carousel .carousel-control-next {
+  top: 50%;
+  left: 90%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gold;
+}/*# sourceMappingURL=style.css.map */
