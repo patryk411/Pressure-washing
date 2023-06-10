@@ -1,0 +1,198 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  font-size: 2.6em;
+  background: transparent;
+  z-index: 10;
+}
+.navbar .btn-nav {
+  font-size: 0.8em;
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  width: 180px;
+}
+.navbar .btn-nav .btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+.navbar .navbar-brand {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .navbar-brand img {
+  font-size: 0.2em;
+}
+.navbar .navbar-collapse {
+  font-family: "Kaushan Script", cursive;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  list-style: none;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+  color: #fff;
+  font-size: 0.5em;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+}
+.header .carousel .btn-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 1.6em;
+  border-radius: 25px;
+  background-color: gold;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  color: #111;
+  padding: 10px 40px;
+}
+.header .carousel .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 6em;
+}
+.header .carousel .carousel-inner .carousel-item .carousel-img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.header .carousel .carousel-inner .carousel-item .carousel-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 62px 82px 13px rgb(0, 0, 0);
+  z-index: 0;
+}
+.header .carousel .carousel-control-prev {
+  top: 50%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.header .carousel .carousel-control-next {
+  top: 50%;
+  left: 90%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.main {
+  background-color: #fff;
+}
+.main__feature-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__feature-services .box-one:nth-child(odd) {
+  background-color: #13277d;
+  padding-top: 40px;
+}
+.main__feature-services__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding-top: 70px;
+  height: 700px;
+  color: #fff;
+  background-color: #2646d4;
+}
+.main__feature-services__box--heading {
+  margin: 30px 0;
+  font-size: 3em;
+}
+.main__feature-services__box--text {
+  margin: 40px 0 50px;
+  font-size: 2em;
+  text-align: center;
+}
+.main__feature-services__box .fa-house {
+  font-size: 6em;
+  text-align: center;
+  margin: 20px 0;
+}
+.main__feature-services__box .fa-arrow-right {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+}
+.main__feature-services__box .line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__feature-services__box .line .lines {
+  height: 3px;
+  width: 70px;
+  margin: 20px 7px;
+  text-decoration: line-through;
+  color: #fff;
+  background-color: #fff;
+}
+.main__feature-services__box .line .lines:nth-child(odd) {
+  width: 30px;
+}
+.main__about-section {
+  background-color: #fff;
+  margin-top: 150px;
+}
+.main__about-section__content__left-section--img {
+  text-align: center;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

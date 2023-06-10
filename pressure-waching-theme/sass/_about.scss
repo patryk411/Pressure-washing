@@ -1,0 +1,13 @@
+&__about-section {
+    background-color: #fff;
+    margin-top: 150px;
+
+    &__content {
+        &__left-section {
+            &--img {
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
