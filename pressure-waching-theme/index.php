@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
   <div class="container">
     <a class="navbar-brand" href="#">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="200" height="150" />
+    <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -151,25 +151,106 @@
       </div>
      </div>
 
-     <div class="main__about-section py-5">
+     <div class="main__about-section mb-5 py-5">
       <div class="main__about-section__content">
         <div class="row m-0 p-0">
-        <div class="main__about-section__content__left-section col-sm-12 col-lg-6">
+        <div class="main__about-section__content__left-section col-sm-10 col-lg-5">
         <img class="main__about-section__content__left-section--img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
         </div>
 
-        <div class="main__about-section__content__right-section col-sm-12 col-lg-6"></div>
+        <div class="main__about-section__content__right-section col-sm-2 col-lg-1">
+        </div>
+
+        <div class="main__about-section__content__right-section col-sm-10 col-lg-5">
+          <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
+          <h5 class="main__about-section__content__right-section--head">O firmie</h5>
+          <p class="main__about-section__content__right-section--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero possimus tenetur? Consectetur repellendus sequi atque ut minima obcaecati natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem possimus a recusandae in, deserunt, magni molestiae consequatur, ducimus quod alias maiores quisquam nemo unde.</p>
+          <button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button>
+        </div>
         </div>
       </div>
-
+    </div>
      </div>
 
-    </div>
+     <div class="main__services py-5">
+       <div class="container-fluid m-0 p-0">
+      <div class="main__services__content">
+        <h3 class="main__services__content--section-heading">
+          Usługi które świadczymy
+        </h3>
+        <div class="container">
+        <div class="row d-flex justify-content-evenly m-0 p-0">
+          
+
+        <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+            <div class="main__services__content__box__main">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+
+                <h3 class="card-head">Lorem, ipsum dolor.</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+            <div class="main__services__content__box__main">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+
+                <h3 class="card-head">Lorem, ipsum dolor.</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+            <div class="main__services__content__box__main">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+
+                <h3 class="card-head">Lorem, ipsum dolor.</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+            <div class="main__services__content__box__main">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+                <h3 class="card-head">Lorem, ipsum dolor.</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        
+
+
+        </div>
+        </div>
+      </div>
+      </div>
+     </div>
+
   </main>
   
   
   
   <?php wp_footer(); ?>
+  <script src="<?php bloginfo("template_directory"); ?>/js/script.js"></script>
   <script src="https://kit.fontawesome.com/52989f7b96.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
