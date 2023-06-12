@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
+<!-- <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
   <div class="container">
     <a class="navbar-brand" href="#">
     <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
@@ -62,7 +62,7 @@
     </div>
    <button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button>
   </div>
-</nav>
+</nav> -->
  
 <header class="header">
 <div class="container-fluid m-0 p-0">
@@ -235,16 +235,37 @@
             </div>
             </div>
           </div>
-
-        
-
-
         </div>
         </div>
       </div>
-      </div>
+    </div>
+  </div>
+
+      <div class="main__statics">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/work2.jpg" alt="" class="main__statics__img">
+        <div class="container">
+          <div class="main__statics__content">
+            <div class="row m-0 g-0">
+              <div class="main__statics__content__left-section col-sm-12 col-lg-6">
+                <h3 class="main__statics__content__left-section--heading py-5">Lorem, ipsum dolor.</h3>
+                <p class="main__statics__content__left-section--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, hic, natus quod eveniet perferendis, eos accusantium optio accusamus laboriosam veritatis illum commodi ea earum harum!</p>
+              </div>
+              
+              <div class="main__statics__content__right-section col-sm-12 col-lg-6">
+                <div class="main__statics__content__right-section__main-box">
+                  <div class="main__statics__content__right-section__main-box--single-box col-sm-6 col-lg-3 py-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, odit architecto tempore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, dolores.
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="shadow"></div>
      </div>
 
+     </div>
   </main>
   
   

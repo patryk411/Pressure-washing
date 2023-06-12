@@ -296,4 +296,41 @@ body {
   background-color: #009eff;
   color: #fff;
   cursor: pointer;
+}
+.main__statics {
+  color: black;
+  position: relative;
+}
+.main__statics__img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: -20;
+}
+.main__statics__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__statics__content__left-section {
+  z-index: 10;
+}
+.main__statics__content__left-section--heading {
+  font-size: 4em;
+}
+.main__statics__content__left-section--text {
+  margin-top: 50px;
+  font-size: 1.8em;
+}
+.main .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
