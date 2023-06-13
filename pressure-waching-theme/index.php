@@ -10,7 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -241,29 +246,74 @@
     </div>
   </div>
 
-      <div class="main__statics">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/work2.jpg" alt="" class="main__statics__img">
-        <div class="container">
-          <div class="main__statics__content">
-            <div class="row m-0 g-0">
-              <div class="main__statics__content__left-section col-sm-12 col-lg-6">
-                <h3 class="main__statics__content__left-section--heading py-5">Lorem, ipsum dolor.</h3>
-                <p class="main__statics__content__left-section--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, hic, natus quod eveniet perferendis, eos accusantium optio accusamus laboriosam veritatis illum commodi ea earum harum!</p>
-              </div>
+      <div class="main__statistic">
+        <div class="main__statistic__hero-img col-12">
+          <div class="container">
+            <div class="row m-0 p-0">
+            <div class="main__statistic__hero-img__content">
               
-              <div class="main__statics__content__right-section col-sm-12 col-lg-6">
-                <div class="main__statics__content__right-section__main-box">
-                  <div class="main__statics__content__right-section__main-box--single-box col-sm-6 col-lg-3 py-5">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, odit architecto tempore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, dolores.
+              <div class="main__statistic__hero-img__content__left-section col-sm-12 col-lg-6 py-5">
+                <div class="main__statistic__hero-img__content__left-section__single-box">
+                  <h3 class="main__statistic__hero-img__content__left-section__single-box--title py-5">
+                    Lorem, ipsum dolor.
+                  </h3>
+                  <div class="line py-5">
+                    <span class="lines"></span>
+                    <span class="section-name">Statystyki firmy</span>
                   </div>
-                </div>
+                <p class="main__statistic__hero-img__content__left-section__single-box--text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet harum maxime dicta blanditiis laboriosam nemo ipsa molestias quod iste quisquam, perspiciatis repellendus, eligendi voluptate nesciunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto, optio necessitatibus quos libero debitis ipsa nostrum nulla nihil. Illo fuga reprehenderit quis? Mollitia hic dignissimos expedita pariatur dolorem provident dolores veniam magni soluta enim, amet delectus est quo reprehenderit, nulla cum eaque illo accusamus ullam id consectetur sint eveniet..Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, hic?
+                </p>
               </div>
-              
+            </div>
+            <div class="main__statistic__hero-img__content__right-section col-sm-12 col-lg-6 py-5">
+              <div class="main__statistic__hero-img__content__right-section__single-box">
+                <div class="row">
+
+                  <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                    <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
+                      <span class="count">01</span>
+                    </h2>
+                    <h3 class="main__statistic__hero-img__content__right-section__single-box__box--title py-5">
+                      <span class="count-js">1</span><i class="fa-solid fa-plus"></i>
+                      <span class="count-text">Lorem ipsum dolor sit amet.</span>
+                 </h3>
+                </div>
+
+                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                    <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
+                      <span class="count">02</span>
+                    </h2>
+                    <h3 class="main__statistic__hero-img__content__right-section__single-box__box--title py-5">
+                      <span class="count-js">1</span><i class="fa-solid fa-plus"></i>
+                      <span class="count-text">Lorem ipsum dolor sit amet.</span>
+                 </h3>
+                </div>
+
+                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                    <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
+                      <span class="count">03</span>
+                    </h2>
+                    <h3 class="main__statistic__hero-img__content__right-section__single-box__box--title py-5">
+                      <span class="count-js">1</span><i class="fa-solid fa-plus"></i>
+                      <span class="count-text">Lorem ipsum dolor sit amet.</span>
+                 </h3>
+                </div>
+
+              <!-- </div> -->
             </div>
           </div>
+          
         </div>
-        <div class="shadow"></div>
-     </div>
+        
+      </div>
+      
+    <!-- </div> -->
+        </div>
+        <div class="hero-shadow"></div>
+        <!-- </div> -->
+      <!-- </div> -->
+          
 
      </div>
   </main>
