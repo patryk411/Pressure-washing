@@ -16,3 +16,23 @@
 		font-size: 0.9em;
 	}
 }
+
+@mixin main-btn-lg {
+		font-size: 0.8em;
+		padding: 10px 40px;
+		border-radius: 25px;
+		background-color: gold;
+		border: none;
+		font-weight: bold;
+		color: #000;
+		width: 280px;
+	
+		.btn-text {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			font-size: 0.9em;
+		}
+	}
+	

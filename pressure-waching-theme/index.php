@@ -168,7 +168,12 @@
 
         <div class="main__about-section__content__right-section col-sm-10 col-lg-5">
           <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
-          <h5 class="main__about-section__content__right-section--head">O firmie</h5>
+          <h5 class="main__about-section__content__right-section--head">
+          <div class="line py-5">
+              <span class="lines"></span>
+              <span class="section-name">O firmie</span>
+              </div>
+              </h5>
           <p class="main__about-section__content__right-section--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero possimus tenetur? Consectetur repellendus sequi atque ut minima obcaecati natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem possimus a recusandae in, deserunt, magni molestiae consequatur, ducimus quod alias maiores quisquam nemo unde.</p>
           <button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button>
         </div>
@@ -300,7 +305,7 @@
                  </h3>
                 </div>
 
-              <!-- </div> -->
+              </div>
             </div>
           </div>
           
@@ -308,11 +313,11 @@
         
       </div>
       
-    <!-- </div> -->
-        </div>
-        <div class="hero-shadow"></div>
+    </div>
         <!-- </div> -->
-      <!-- </div> -->
+        <div class="hero-shadow"></div>
+        </div>
+      </div>
           
 
      </div>
