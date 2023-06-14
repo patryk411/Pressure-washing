@@ -113,7 +113,7 @@
 </header>
 
 
-<main class="main m-0 p-0">
+<main class="main">
   <div class="container">
     <div class="main__feature-services">
       <div class="row m-0 p-0">
@@ -159,17 +159,17 @@
      <div class="main__about-section mb-5 py-5">
       <div class="main__about-section__content">
         <div class="row m-0 p-0">
-        <div class="main__about-section__content__left-section col-sm-10 col-lg-5">
+        <div class="main__about-section__content__left-section col-sm-12 col-lg-5">
         <img class="main__about-section__content__left-section--img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
         </div>
 
-        <div class="main__about-section__content__right-section col-sm-2 col-lg-1">
+        <div class="main__about-section__content__right-section col-sm-2 col-lg-1 d-none d-lg-block d-xl-block d-xxl-block">
         </div>
 
-        <div class="main__about-section__content__right-section col-sm-10 col-lg-5">
+        <div class="main__about-section__content__right-section col-sm-12 col-lg-5">
           <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
           <h5 class="main__about-section__content__right-section--head">
-          <div class="line py-5">
+          <div class="line">
               <span class="lines"></span>
               <span class="section-name">O firmie</span>
               </div>
@@ -275,7 +275,7 @@
               <div class="main__statistic__hero-img__content__right-section__single-box">
                 <div class="row">
 
-                  <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                  <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6 count-div">
                     <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
                       <span class="count">01</span>
                     </h2>
@@ -285,7 +285,7 @@
                  </h3>
                 </div>
 
-                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6 count-div">
                     <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
                       <span class="count">02</span>
                     </h2>
@@ -295,7 +295,7 @@
                  </h3>
                 </div>
 
-                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6">
+                <div class="main__statistic__hero-img__content__right-section__single-box__box col-sm-6 count-div">
                     <h2 class="main__statistic__hero-img__content__right-section__single-box__box--heading">
                       <span class="count">03</span>
                     </h2>
