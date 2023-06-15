@@ -322,7 +322,7 @@ body {
 }
 .main__statistic__hero-img {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-image: url("../img/work2.jpg");
   background-position: center;
@@ -395,6 +395,175 @@ body {
   align-items: center;
 }
 .main .hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 39, 125, 0.7);
+  box-shadow: inset 0px 0px 42px 6px rgb(10, 16, 38);
+  z-index: -5;
+}
+.main__banner-section {
+  position: relative;
+}
+.main__banner-section__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffc600;
+  color: #000;
+  text-align: center;
+  padding: 100px 50px 50px;
+  width: 80%;
+}
+.main__banner-section__content--text {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 70px 0 30px;
+}
+.main__banner-section__content--head {
+  font-weight: bold;
+  margin: 30px 0 50px;
+  font-size: 6em;
+}
+.main__form-section {
+  background-color: #333;
+  margin: 250px 350px 100px;
+  background-image: url("../img/woman_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+.main__form-section__content__left {
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 150px 50px 150px;
+}
+.main__form-section__content__left--heading {
+  text-align: left;
+  font-size: 5em;
+  font-weight: bold;
+}
+.main__form-section__content__left .line {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.main__form-section__content__left .line .lines {
+  height: 3px;
+  width: 40px;
+  margin: 10px 7px 20px;
+  text-decoration: line-through;
+  color: #fff;
+  background-color: #fff;
+}
+.main__form-section__content__left .line .lines:nth-child(even) {
+  width: 30px;
+}
+.main__form-section__content__left .line .section-name {
+  font-weight: bold;
+  font-size: 2em;
+  position: relative;
+  top: -3px;
+  left: 15px;
+}
+.main__form-section__content__left--text {
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+.main__form-section__content__left--second-text {
+  font-size: 1.6em;
+}
+.main__form-section__content__left--second-text i {
+  padding-right: 10px;
+}
+.main__form-section__content__right {
+  background-color: #f6f8ff;
+}
+.main__form-section__content__right__top {
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/baner_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.main__form-section__content__right__top--heading {
+  font-weight: bold;
+  font-size: 4.5em;
+}
+.main__form-section__content__right__bottom {
+  font-size: 2em;
+}
+.main__form-section__content__right__bottom form {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+.main__form-section__content__right__bottom form .form-first {
+  margin-top: 50px;
+}
+.main__form-section__content__right__bottom form .form-label,
+.main__form-section__content__right__bottom form .form-select {
+  width: 80%;
+}
+.main__form-section__content__right__bottom form .form-label label,
+.main__form-section__content__right__bottom form .form-label input,
+.main__form-section__content__right__bottom form .form-select label,
+.main__form-section__content__right__bottom form .form-select input {
+  margin: 15px 0 5px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 0.8em;
+}
+.main__form-section__content__right__bottom form .form-select {
+  padding: 15px 20px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+.main__form-section__content__right__bottom form .form-control {
+  margin: 15px 0 5px;
+  font-size: 0.8em;
+  padding: 15px 20px;
+}
+.main__form-section__content__right__bottom form .is-ok {
+  max-height: 300px;
+  min-height: 100px;
+}
+.main__form-section__content__right__bottom form .btn-nav {
+  font-size: 0.8em;
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  width: 180px;
+  margin: 20px 0;
+  width: 40%;
+  height: 100%;
+  font-size: 0.9em;
+}
+.main__form-section__content__right__bottom form .btn-nav .btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+.main__form-section .hero-shadow {
   position: absolute;
   top: 0;
   left: 0;
@@ -687,7 +856,7 @@ body {
   }
   .main__statistic__hero-img {
     position: relative;
-    height: 100%;
+    height: 165vh;
     width: 100%;
     background-image: url("../img/work2.jpg");
     background-position: center;
@@ -722,6 +891,9 @@ body {
   .main__statistic__hero-img__content__right-section__single-box__box--heading {
     font-size: 1.6em;
   }
+  .main__statistic__hero-img__content__right-section__single-box__box--heading .count {
+    font-size: 4em;
+  }
   .main__statistic__hero-img__content__right-section__single-box__box--title {
     font-size: 1.2em;
   }
@@ -730,6 +902,29 @@ body {
   }
   .main__statistic__hero-img__content__right-section__single-box__box--title .count-text {
     font-size: 1em;
+  }
+  .main__banner-section {
+    position: relative;
+  }
+  .main__banner-section__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffc600;
+    color: #000;
+    text-align: center;
+    padding: 100px 50px 50px;
+  }
+  .main__banner-section__content--text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 70px 0 30px;
+  }
+  .main__banner-section__content--head {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 3.5em;
   }
 }
 @media (max-width: 576px) {
@@ -996,7 +1191,7 @@ body {
   }
   .main__statistic__hero-img {
     position: relative;
-    height: 100%;
+    height: 240vh;
     width: 100%;
     background-image: url("../img/work2.jpg");
     background-position: center;
@@ -1073,5 +1268,29 @@ body {
     background-color: rgba(19, 39, 125, 0.7);
     box-shadow: inset 0px 0px 42px 6px rgb(10, 16, 38);
     z-index: -5;
+  }
+  .main__banner-section {
+    position: relative;
+  }
+  .main__banner-section__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffc600;
+    color: #000;
+    text-align: center;
+    padding: 100px 50px 50px;
+    width: 80%;
+  }
+  .main__banner-section__content--text {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 70px 0 30px;
+  }
+  .main__banner-section__content--head {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 2.2em;
   }
 }/*# sourceMappingURL=style.css.map */

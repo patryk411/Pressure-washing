@@ -58,9 +58,12 @@ function animateValue(num, start, end, duration) {
 		if (!startTimestamp) startTimestamp = timestamp
 		const progress = Math.min((timestamp - startTimestamp) / duration, 1)
 		num.innerHTML = Math.floor(progress * (start - end) + end)
-		if (progress < 1) {
+		if (progress < 1 && window.scrollY >= 3100) {
 			window.requestAnimationFrame(step)
+		} else {
+			num.innerHTML = 0
 		}
+		window.addEventListener('scroll', step)
 	}
 	window.requestAnimationFrame(step)
 }

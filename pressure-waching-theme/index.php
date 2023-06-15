@@ -318,9 +318,77 @@
         <div class="hero-shadow"></div>
         </div>
       </div>
-          
 
-     </div>
+      <div class="main__banner-section">
+        <div class="container">
+        <div class="main__banner-section__content py-5">
+          <p class="main__banner-section__content--text">Lorem ipsum dolor.</p>
+          <h3 class="main__banner-section__content--head">Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</h3>
+        </div>
+        </div>
+      </div>
+
+      
+      <div class="main__form-section">
+        <div class="main__form-section__content">
+          <div class="row m-0 p-0">
+
+            <div class="main__form-section__content__left col-sm-4 my-5 mx-5">
+              <h3 class="main__form-section__content__left--heading">Umów się na wycenę</h3>
+              <div class="line py-5">
+                <span class="lines"></span>
+                <span class="section-name">Kontakt</span>
+              </div>
+              <p class="main__form-section__content__left--text">Zapraszam do kontaktu</p>
+              <p class="main__form-section__content__left--second-text">
+                <i class="fas fa-phone"></i> +48 415 531 531
+              </p>
+              <p class="main__form-section__content__left--second-text">
+                <i class="fas fa-phone"></i> +48 415 531 531
+              </p>
+            </div>
+            
+            
+            <div class="main__form-section__content__right col-sm m-0 p-0">
+                    <div class="main__form-section__content__right__top">
+                      <h3 class="main__form-section__content__right__top--heading">Zapytaj o wycenę</h3>
+                    </div>
+                    <div class="main__form-section__content__right__bottom py-5">
+                      <form class="row">
+                        <div class="col-auto form-label form-first">
+                        <label for="staticEmail2" class="visually-hidden">Email</label>
+                        <input type="text" class="form-control" id="staticEmail2" placeholder="Email">
+                      </div>
+                      <div class="col-auto form-label">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                      </div>
+                      <div class="col-auto form-label">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Mycie kostki</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col-auto form-label">
+                    <div class="mb-3">
+                      <textarea class="form-control is-ok" id="validationTextarea" placeholder="Napisz wiadomość" required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-auto form-label">
+                  <button class="btn btn-nav" type="submit"><span class="btn-text">Wyślij zapytanie</span></button>
+                  </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-shadow"></div>
+              </div>
+              
+              
+    </div>
   </main>
   
   
