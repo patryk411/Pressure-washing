@@ -1,56 +1,24 @@
-// document.addEventListener('DOMContentLoaded', function () {
-// 	const nav = document.querySelector('.navbar')
+const card = document.querySelector('.card')
 
-// 	function addShadow() {
-// 		if (window.scrollY >= 300) {
-// 			nav.classList.add('shadow-bg')
-// 		} else {
-// 			nav.classList.remove('shadow-bg')
-// 		}
-// 	}
-// 	window.addEventListener('scroll', addShadow)
-// })
+card.forEach(() => {
+	if ((mouseover = true)) {
+		card.classList.add('active-card')
+	} else {
+		card.classList.remove('active-card')
+	}
+})
 
-// const card = document.querySelector('.card')
+function bigFnc() {
+	card.addEventListener('mouseover', () => {
+		card.classList.add('active-card')
+	})
 
-// card.forEach(() => {
-// 	if ((mouseover = true)) {
-// 		card.classList.add('active-card')
-// 	} else {
-// 		card.classList.remove('active-card')
-// 	}
-// })
+	card.addEventListener('mouseout', () => {
+		card.classList.remove('active-card')
+	})
+}
+setTimeout(bigFnc(), 1000)
 
-// function bigFnc() {
-// 	card.addEventListener('mouseover', () => {
-// 		card.classList.add('active-card')
-// 	})
-
-// 	card.addEventListener('mouseout', () => {
-// 		card.classList.remove('active-card')
-// 	})
-// }
-// setTimeout(bigFnc(), 1000)
-
-// document.addEventListener('DOMContentLoaded', function () {
-// 	const num = document.querySelector('.count-js')
-// 	const div = document.querySelector('.count-div')
-
-// 	function constNumbs() {
-// 		if (window.scrollY >= 3100) {
-// 			console.log('start counting')
-// 		} else {
-// 			console.log('not do anything')
-// 		}
-// 		console.log(window.scrollY)
-// 	}
-
-// 	window.addEventListener('scroll', constNumbs)
-
-// 	function counting() {
-// 		for (let i = 0; i < 50; i++) {}
-// 	}
-// })
 
 function animateValue(num, start, end, duration) {
 	let startTimestamp = null

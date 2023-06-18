@@ -1,117 +1,4 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mycie cisnieniowe</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo("template_directory"); ?>/css/style.css" />
-    <?php wp_head(); ?>
-
-</head>
-<body>
-
-<!-- <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
-</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">O nas</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Oferta
-                <i class="fa-solid fa-chevron-down"></i>  
-            </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Galeria</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt</a>
-        </li>
-    </ul>
-    </div>
-   <button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button>
-  </div>
-</nav> -->
- 
-<header class="header">
-<div class="container-fluid m-0 p-0">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-        <div class="carousel-shadow"></div>
-        <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-      <div class="carousel-shadow"></div>      
-      <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content.</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-      <div class="carousel-shadow"></div>      
-      <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </div>
-</div>
-</div>
-</header>
-
+<?php get_header(); ?>
 
 <main class="main">
   <div class="container">
@@ -191,60 +78,32 @@
         <div class="container">
         <div class="row d-flex justify-content-evenly m-0 p-0">
           
+        <?php
+        $homepageEvents = new WP_Query(array(
+          'posts_per_page' => 5,
+          'post_type' => 'event'
+        ));
 
-        <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
-            <div class="main__services__content__box__main">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
-
-                <h3 class="card-head">Lorem, ipsum dolor.</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            </div>
-          </div>
+        while($homepageEvents->have_posts()) {
+          $homepageEvents->the_post();?>
           <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
             <div class="main__services__content__box__main">
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+              <a href="<?php the_permalink(); ?>"><button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button></a>
 
-                <h3 class="card-head">Lorem, ipsum dolor.</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3 class="card-head"><?php the_title(); ?></h3>
+                <p class="card-text"><?php echo wp_trim_words(get_the_content(), 15); ?></p>
               </div>
             </div>
             </div>
           </div>
+          <?php }
+        ?>
 
-          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
-            <div class="main__services__content__box__main">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
+        
 
-                <h3 class="card-head">Lorem, ipsum dolor.</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            </div>
-          </div>
-
-          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
-            <div class="main__services__content__box__main">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-              <button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button>
-                <h3 class="card-head">Lorem, ipsum dolor.</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            </div>
-          </div>
         </div>
         </div>
       </div>
@@ -330,10 +189,11 @@
 
       
       <div class="main__form-section">
+        <div class="hero-shadow"></div>
         <div class="main__form-section__content">
           <div class="row m-0 p-0">
-
-            <div class="main__form-section__content__left col-sm-4 my-5 mx-5">
+            
+            <div class="main__form-section__content__left col-md col-lg-4 my-5 mx-sm-5">
               <h3 class="main__form-section__content__left--heading">Umów się na wycenę</h3>
               <div class="line py-5">
                 <span class="lines"></span>
@@ -349,12 +209,12 @@
             </div>
             
             
-            <div class="main__form-section__content__right col-sm m-0 p-0">
+            <div class="main__form-section__content__right col-md-12 col-lg m-0 p-0">
                     <div class="main__form-section__content__right__top">
                       <h3 class="main__form-section__content__right__top--heading">Zapytaj o wycenę</h3>
                     </div>
                     <div class="main__form-section__content__right__bottom py-5">
-                      <form class="row">
+                      <form class="row p-0 m-0">
                         <div class="col-auto form-label form-first">
                         <label for="staticEmail2" class="visually-hidden">Email</label>
                         <input type="text" class="form-control" id="staticEmail2" placeholder="Email">
@@ -384,20 +244,9 @@
                   </div>
                 </div>
               </div>
-              <div class="hero-shadow"></div>
-              </div>
-              
-              
+              </div>            
     </div>
   </main>
-  
-  
-  
-  <?php wp_footer(); ?>
-  <script src="<?php bloginfo("template_directory"); ?>/js/script.js"></script>
-  <script src="https://kit.fontawesome.com/52989f7b96.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-  crossorigin="anonymous"></script>
-</body>
-</html>
+
+
+<?php get_footer(); ?>

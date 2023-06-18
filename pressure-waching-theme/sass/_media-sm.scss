@@ -418,5 +418,237 @@
 				}
 			}
 		}
+		
+		&__form-section {
+			position: relative;
+			background-color: #333;
+			margin: 250px 30px 100px;
+			background-image: url('../img/woman_1920.jpg');
+			background-position: center;
+			background-size: cover;
+			font-size: .6em;
+			z-index: 0;
+			
+			&__content {
+				.hero-shadow {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgb(19, 39, 125, 0.7);
+					z-index: 15;
+				}
+		
+				&__left {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					border: none;
+					display: flex;
+					flex-direction: column;
+					align-items: start;
+					justify-content: center;
+					padding: 150px 30px 150px;
+					
+		
+		
+					&--heading {
+						text-align: center;
+						font-size: 7em;
+						font-weight: bold;
+					}
+		
+					.line {
+						display: flex;
+						flex-direction: row;
+						align-items: start;
+						margin: 20px 0;
+						.lines {
+							height: 3px;
+							width: 40px;
+							margin: 20px 7px 20px;
+							text-decoration: line-through;
+							color: #fff;
+							background-color: #fff;
+						}
+						.lines:nth-child(even) {
+							width: 30px;
+						}
+		
+						.section-name {
+							font-weight: bold;
+							font-size: 5em;
+							position: relative;
+							top: -2px;
+							left: 15px;
+						}
+					}
+		
+					&--text {
+						font-size: 3em;
+						margin-bottom: 40px;
+					}
+		
+					&--second-text {
+						font-size: 3em;
+		
+						i {
+							padding-right: 10px;
+						}
+					}
+				}
+				
+		
+				&__right {
+					background-color: #f6f8ff;
+					font-size: 1.2em;
+					&__top {
+						text-align: center;
+						padding: 30px 0;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+						background-image: url('../img/baner_1920.jpg');
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+		
+						&--heading {
+							font-weight: bold;
+							font-size: 4.5em;
+						}
+					}
+		
+					&__bottom {
+						font-size: 2em;
+						form {
+							display: flex;
+							flex-direction: row;
+							align-items: end;
+							justify-content: center;
+		
+							.form-first {
+								margin-top: 50px;
+							}
+		
+							.form-label,
+							.form-select {
+								width: 80%;
+								label,
+								input {
+									margin: 15px 0 5px;
+									padding: 15px 20px;
+									border: none;
+									font-size: 1em;
+								}
+							}
+		
+							.form-select {
+								padding: 15px 20px;
+								width: 80%;
+								margin-top: 10px;
+								font-size: 1em;
+							}
+		
+							.form-control {
+								margin: 15px 0 5px;
+								font-size: 1em;
+								padding: 15px 20px;
+							}
+		
+							.is-ok {
+								max-height: 300px;
+								min-height: 100px;
+							}
+							.btn-nav {
+								@include main-btn;
+								margin: 20px 0;
+								width: 100%;
+								height: 100%;
+								font-size: 1.3em;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
+
+	.footer {
+        background-color: #0a1026;
+
+        .box-one {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .box-three {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box-four {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+        }
+
+        &__box {
+            padding: 40px;
+            // font-size: 2.6em;
+            font-family: Poppins;
+
+            &--head {
+                font-size: 2em;
+                margin-bottom: 30px;
+                font-weight: bold;
+            }
+
+            &--text {
+                color: #a9b2d5;
+                font-size: 1em;
+                margin-bottom: 30px;
+            }
+
+            &__icons {
+                a {
+                    font-size: 1.6em;
+                    color: #fff;
+                    padding: 5px;
+                }
+            }
+
+            &--single-link {
+                font-size: .8em;
+                text-decoration: none;
+                color: #a9b2d5;
+                
+                i {
+                    margin: 0 10px 10px 0;
+                }
+            }
+
+            &--contact {
+                color: #a9b2d5;
+                text-decoration: none;
+                font-size: .9em;
+
+                i {
+                    color: #009eff;
+                    margin: 0 10px 10px 0;
+                }
+
+            }
+            a:hover {
+                color: #fff;
+            }
+        }
+	}
+
 }

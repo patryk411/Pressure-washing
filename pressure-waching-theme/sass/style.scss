@@ -17,9 +17,10 @@ body {
 	// background-color: #fff;
 	color: #fff;
 }
-@import './mixins';
 @import './nav';
+@import './mixins';
 @import './header';
+@import './footer';
 
 .main {
 	@import './feature';
@@ -30,5 +31,8 @@ body {
 	@import './form';
 }
 
+
 @import './media-md';
 @import './media-sm';
+
+
