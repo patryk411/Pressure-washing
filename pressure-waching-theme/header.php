@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
   <div class="container">
-    <a class="navbar-brand" href="<?php echo site_url('/home'); ?>">
+    <a class="navbar-brand" href="<?php echo site_url('/home-4'); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home'); ?>">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home-4'); ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/O nas'); ?>">O nas</a>
+          <a class="nav-link" href="<?php echo site_url('/o-nas'); ?>">O nas</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link" href="<?php echo site_url('/Oferta'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="<?php echo site_url('/oferta'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Oferta
                 <i class="fa-solid fa-chevron-down"></i>  
             </a>
@@ -55,62 +55,20 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/FAQs'); ?>">FAQs</a>
+          <a class="nav-link" href="<?php echo site_url('/faqs'); ?>">FAQs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/Galeria'); ?>">Galeria</a>
+          <a class="nav-link" href="<?php echo site_url('/galeria'); ?>">Galeria</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/Kontakt'); ?>">Kontakt</a>
+          <a class="nav-link" href="<?php echo site_url('/kontakt'); ?>">Kontakt</a>
         </li>
     </ul>
     </div>
-   <button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button>
+    <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button></a>
   </div>
 </nav>
  
-<header class="header">
-<div class="container-fluid m-0 p-0">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-        <div class="carousel-shadow"></div>
-        <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-      <div class="carousel-shadow"></div>      
-      <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content.</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-      <div class="carousel-shadow"></div>      
-      <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </div>
-</div>
-</div>
-</header>
 
 <?php 
 ?>

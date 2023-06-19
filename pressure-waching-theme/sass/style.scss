@@ -21,6 +21,7 @@ body {
 @import './mixins';
 @import './header';
 @import './footer';
+@import './section-baner';
 
 .main {
 	@import './feature';
@@ -31,8 +32,5 @@ body {
 	@import './form';
 }
 
-
 @import './media-md';
 @import './media-sm';
-
-

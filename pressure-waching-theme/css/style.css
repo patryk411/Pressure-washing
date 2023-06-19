@@ -192,6 +192,155 @@ body {
   color: #fff;
 }
 
+.section-baner__img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-image: url("../img/baner-section_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  z-index: -12;
+}
+.section-baner__img--section-name {
+  font-size: 10em;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.section-baner__img--text {
+  z-index: 1;
+  text-align: center;
+  font-size: 3.5em;
+  color: #fff;
+}
+.section-baner .hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 39, 125, 0.4);
+  z-index: 0;
+}
+.section-baner .main__services {
+  background-color: #fff;
+}
+.section-baner .main__services__content--section-heading {
+  color: #000;
+}
+.section-baner__content {
+  font-size: 2em;
+  color: #000;
+  margin: 50px 0;
+}
+.section-baner__content--heading {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.section-baner__content__right {
+  background-color: #f0f8f4;
+}
+.section-baner__content__right__top--heading {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+.section-baner__content__right__bottom {
+  font-size: 1em;
+}
+.section-baner__content__right__bottom form {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+.section-baner__content__right__bottom form .form-label,
+.section-baner__content__right__bottom form .form-select {
+  width: 80%;
+}
+.section-baner__content__right__bottom form .form-label label,
+.section-baner__content__right__bottom form .form-label input,
+.section-baner__content__right__bottom form .form-select label,
+.section-baner__content__right__bottom form .form-select input {
+  margin: 15px 0 5px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 0.8em;
+}
+.section-baner__content__right__bottom form .form-select {
+  padding: 15px 20px;
+  width: 70%;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+.section-baner__content__right__bottom form .form-control {
+  margin: 15px 0 5px;
+  font-size: 0.8em;
+  padding: 15px 20px;
+}
+.section-baner__content__right__bottom form .is-ok {
+  max-height: 300px;
+  min-height: 100px;
+}
+.section-baner__content__right__bottom form .btn-nav {
+  font-size: 0.8em;
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: gold;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  width: 180px;
+  margin: 20px 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0.9em;
+}
+.section-baner__content__right__bottom form .btn-nav .btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+.section-baner__service-gallery {
+  color: #000;
+}
+.section-baner__service-gallery--heading {
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+}
+.section-baner__service-gallery .line {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+.section-baner__service-gallery .line .lines {
+  height: 3px;
+  width: 40px;
+  margin: 10px 7px 20px;
+  text-decoration: line-through;
+  background-color: #009eff;
+}
+.section-baner__service-gallery .line .lines:nth-child(even) {
+  width: 30px;
+}
+.section-baner__service-gallery .line .section-name {
+  color: #009eff;
+  font-weight: bold;
+  font-size: 2em;
+  position: relative;
+  top: -3px;
+  padding: 0 20px;
+}
+
 .main__feature-services {
   display: flex;
   flex-direction: column;
@@ -345,6 +494,7 @@ body {
 .main__services__content__box__main .card .card-body .card-head {
   font-size: 2.4em;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 .main__services__content__box__main .card .card-body .card-text {
   font-size: 1.6em;

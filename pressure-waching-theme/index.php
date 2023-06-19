@@ -1,5 +1,48 @@
 <?php get_header(); ?>
 
+<header class="header">
+<div class="container-fluid m-0 p-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
+        <div class="carousel-shadow"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <p>Some representative placeholder content</p>
+          <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
+      <div class="carousel-shadow"></div>      
+      <div class="carousel-caption d-none d-md-block">
+          <p>Some representative placeholder content.</p>
+          <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+      <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
+      <div class="carousel-shadow"></div>      
+      <div class="carousel-caption d-none d-md-block">
+          <p>Some representative placeholder content</p>
+          <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+</div>
+</div>
+</header>
+
 <main class="main">
   <div class="container">
     <div class="main__feature-services">
@@ -62,7 +105,7 @@
               </div>
               </h5>
           <p class="main__about-section__content__right-section--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero possimus tenetur? Consectetur repellendus sequi atque ut minima obcaecati natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem possimus a recusandae in, deserunt, magni molestiae consequatur, ducimus quod alias maiores quisquam nemo unde.</p>
-          <button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button>
+          <a href="<?php echo site_url('/o-nas'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button></a>
         </div>
         </div>
       </div>
@@ -81,7 +124,7 @@
         <?php
         $homepageEvents = new WP_Query(array(
           'posts_per_page' => 5,
-          'post_type' => 'event'
+          'post_type' => 'service'
         ));
 
         while($homepageEvents->have_posts()) {
@@ -89,7 +132,7 @@
           <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
             <div class="main__services__content__box__main">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" class="card-img-top" alt="...">
+              <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
               <div class="card-body">
               <a href="<?php the_permalink(); ?>"><button class="btn btn-services" type="submit"><span class="btn-text"></span><i class="fa-sharp fa-solid fa-arrow-right-long"></i></button></a>
 

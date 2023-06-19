@@ -20,11 +20,11 @@
 
                   <div class="footer__box box-three col-sm-12 col-md-6 col-lg-3">
                     <h4 class="footer__box--head">Skróty</h4>
-                    <a href="" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>O nas</a>
-                    <a href="" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Oferta</a>
-                    <a href="" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>FAQ</a>
-                    <a href="" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Galeria</a>
-                    <a href="" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Kontakt</a>
+                    <a href="<?php echo site_url('/o-nas'); ?>" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>O nas</a>
+                    <a href="<?php echo site_url('/oferta'); ?>" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Oferta</a>
+                    <a href="<?php echo site_url('/faqs'); ?>" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>FAQ</a>
+                    <a href="<?php echo site_url('/galeria'); ?>" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Galeria</a>
+                    <a href="<?php echo site_url('/kontakt'); ?>" class="footer__box--single-link"><i class="fa-solid fa-arrow-right"></i>Kontakt</a>
                   </div>
 
                   <div class="footer__box box-four col-sm-12 col-md-6 col-lg-3">
