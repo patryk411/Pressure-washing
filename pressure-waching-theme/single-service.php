@@ -13,8 +13,8 @@
 
         <div class="row">
         <div class="section-baner__content__left col-lg-8 col-sm-12">
-                <p class="section-baner__content--heading"><?php the_title(); ?></p>
-                <p class="section-baner__content--text"><?php the_content(); ?></p>
+                <p class="section-baner__content__left--heading"><?php the_title(); ?></p>
+                <p class="section-baner__content__left--text"><?php the_content(); ?></p>
                 <?php the_post_thumbnail(); ?>
         </div>
         <div class="section-baner__content__right col-lg-4 col-sm-12 py-5">

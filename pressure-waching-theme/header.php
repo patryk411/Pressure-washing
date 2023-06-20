@@ -47,13 +47,18 @@
                 Oferta
                 <i class="fa-solid fa-chevron-down"></i>  
             </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+            <li><a class="dropdown-item" href="<?php the_permalink(); ?>">Czyszczenie dachówki</a></li>
+            <li><a class="dropdown-item" href="<?php the_permalink(); ?>">Czyszczenie elewacji</a></li>
+            <li><a class="dropdown-item" href="<?php the_permalink(); ?>">Czyszczenie kostki brukowej</a></li>
+            <li><a class="dropdown-item" href="<?php the_permalink() ?>">Usługa 4</a></li>
+            <li><a class="dropdown-item" href="<?php the_permalink() ?>">Usługa 5</a></li>
+
+        </ul>
+      </li>
+
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/faqs'); ?>">FAQs</a>
         </li>

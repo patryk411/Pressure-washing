@@ -86,31 +86,46 @@
       </div>
      </div>
 
-     <div class="main__about-section mb-5 py-5">
-      <div class="main__about-section__content">
-        <div class="row m-0 p-0">
-        <div class="main__about-section__content__left-section col-sm-12 col-lg-5">
-        <img class="main__about-section__content__left-section--img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
-        </div>
+<div class="main">
+<div class="main__about-section mb-5 py-5">
+<div class="main__about-section__content">
+<div class="container">
+<div class="row m-0 p-0">
+          
+<?php 
+$aboutPost = new WP_Query(array(
+  'posts_per_page' => 1,
+));
 
-        <div class="main__about-section__content__right-section col-sm-2 col-lg-1 d-none d-lg-block d-xl-block d-xxl-block">
-        </div>
 
-        <div class="main__about-section__content__right-section col-sm-12 col-lg-5">
-          <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
-          <h5 class="main__about-section__content__right-section--head">
-          <div class="line">
-              <span class="lines"></span>
-              <span class="section-name">O firmie</span>
+while($aboutPost->have_posts()) {
+  $aboutPost->the_post();?>
+  <div class="main__about-section__content__left-section col-sm-12 col-lg-5">
+        <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
+            </div>
+            <div class="main__about-section__content__right-section col-sm-2 col-lg-1 d-none d-lg-block d-xl-block d-xxl-block">
               </div>
+              <div class="main__about-section__content__right-section col-sm-12 col-lg-5">
+                <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
+                <h5 class="main__about-section__content__right-section--head">
+                  <div class="line">
+                    <span class="lines"></span>
+                    <span class="section-name">O firmie</span>
+                  </div>
               </h5>
-          <p class="main__about-section__content__right-section--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque libero possimus tenetur? Consectetur repellendus sequi atque ut minima obcaecati natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem possimus a recusandae in, deserunt, magni molestiae consequatur, ducimus quod alias maiores quisquam nemo unde.</p>
+            <p class="main__about-section__content__right-section--about-section-text"><?php echo wp_trim_words(get_the_content(), 50); ?></p>
           <a href="<?php echo site_url('/o-nas'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button></a>
         </div>
-        </div>
       </div>
-    </div>
-     </div>
+
+      <?php }
+        ?>
+   </div>
+</div>
+</div>
+</div>
+</div>
+
 
      <div class="main__services py-5">
        <div class="container-fluid m-0 p-0">
