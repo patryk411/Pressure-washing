@@ -375,6 +375,43 @@ body {
   top: -4px;
   left: 15px;
 }
+.faqs__left .accordion {
+  margin: 0 20px 20px;
+}
+.faqs__left .accordion .accordion-item .accordion-header {
+  font-size: 2em;
+}
+.faqs__left .accordion .accordion-item .accordion-header:focus {
+  color: #009eff;
+}
+.faqs__left .accordion .accordion-item .accordion-button {
+  border-color: #fff;
+  font-size: 0.5em;
+  padding: 30px 0;
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+.faqs__left .accordion .accordion-item .accordion-button::after {
+  font-size: 2em;
+}
+.faqs__left .accordion .accordion-item .accordion-collapse {
+  outline: none;
+  border: none;
+}
+.faqs__left .accordion .accordion-item button {
+  font-weight: bold;
+}
+.faqs__left .accordion .accordion-item button:focus {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #009eff;
+}
+.faqs__left .accordion .accordion-item .accordion-body {
+  font-size: 0.8em;
+  color: #999;
+}
 .faqs__right--heading {
   font-size: 1.2em;
   text-align: center;

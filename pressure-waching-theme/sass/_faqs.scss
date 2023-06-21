@@ -34,6 +34,51 @@
 				left: 15px;
 			}
 		}
+
+		.accordion {
+			margin: 0 20px 20px;
+			.accordion-item {
+				.accordion-header {
+					font-size: 2em;
+				}
+				.accordion-header:focus {
+					color: #009eff;
+				}
+				.accordion-button {
+					border-color: #fff;
+					font-size: 0.5em;
+					padding: 30px 0;
+					background-color: #fff;
+					outline: none;
+					border: none;
+				}
+
+				.accordion-button::after {
+					font-size: 2em;
+				}
+
+				.accordion-collapse {
+					outline: none;
+					border: none;
+				}
+
+				button {
+					font-weight: bold;
+				}
+
+				button:focus {
+					border: none;
+					background: transparent;
+					outline: none;
+					color: #009eff;
+				}
+
+				.accordion-body {
+					font-size: 0.8em;
+					color: #999;
+				}
+			}
+		}
 	}
 
 	&__right {
