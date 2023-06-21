@@ -1,0 +1,55 @@
+.faqs {
+	margin: 50px 0;
+	color: #000;
+	font-size: 2em;
+	&__left {
+		&--heading {
+			margin: 20px 40px 0 20px;
+			font-size: 2.4em;
+			font-weight: bold;
+		}
+
+		.line {
+			margin: 20px 40px 0 20px;
+			display: flex;
+			flex-direction: row;
+			align-items: start;
+			color: #009eff;
+			.lines {
+				height: 3px;
+				width: 40px;
+				margin: 10px 7px 20px;
+				text-decoration: line-through;
+				background-color: #009eff;
+			}
+			.lines:nth-child(even) {
+				width: 30px;
+			}
+
+			.section-name {
+				font-weight: bold;
+				font-size: 1em;
+				position: relative;
+				top: -4px;
+				left: 15px;
+			}
+		}
+	}
+
+	&__right {
+		&--heading {
+			font-size: 1.2em;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.faqs-section {
+			background-color: #fff;
+			color: #fff;
+			.form-select,
+			.form-control {
+				background-color: #f0f8f4;
+			}
+		}
+	}
+}
