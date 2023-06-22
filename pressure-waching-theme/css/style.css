@@ -375,42 +375,21 @@ body {
   top: -4px;
   left: 15px;
 }
-.faqs__left .accordion {
-  margin: 0 20px 20px;
-}
-.faqs__left .accordion .accordion-item .accordion-header {
-  font-size: 2em;
-}
-.faqs__left .accordion .accordion-item .accordion-header:focus {
-  color: #009eff;
-}
-.faqs__left .accordion .accordion-item .accordion-button {
-  border-color: #fff;
-  font-size: 0.5em;
-  padding: 30px 0;
+.faqs__left #sp-ea-344.sp-easy-accordion > .sp-ea-single {
+  border: none;
   background-color: #fff;
-  outline: none;
-  border: none;
+  margin: 20px 0;
 }
-.faqs__left .accordion .accordion-item .accordion-button::after {
-  font-size: 2em;
+.faqs__left #sp-ea-344.sp-easy-accordion > .sp-ea-single > .ea-header a .ea-expand-icon.fa {
+  position: relative;
+  right: -95%;
 }
-.faqs__left .accordion .accordion-item .accordion-collapse {
-  outline: none;
-  border: none;
-}
-.faqs__left .accordion .accordion-item button {
-  font-weight: bold;
-}
-.faqs__left .accordion .accordion-item button:focus {
-  border: none;
-  background: transparent;
-  outline: none;
+.faqs__left #sp-ea-344.sp-easy-accordion > .sp-ea-single > .ea-header a {
   color: #009eff;
+  font-size: 1.3em;
 }
-.faqs__left .accordion .accordion-item .accordion-body {
-  font-size: 0.8em;
-  color: #999;
+.faqs__left #sp-ea-344.sp-easy-accordion > .sp-ea-single > .sp-collapse > .ea-body {
+  margin: 0 20px;
 }
 .faqs__right--heading {
   font-size: 1.2em;
@@ -424,6 +403,20 @@ body {
 .faqs__right .faqs-section .form-select,
 .faqs__right .faqs-section .form-control {
   background-color: #f0f8f4;
+}
+
+.gallery__content__box {
+  background-color: #999;
+  font-size: 2em;
+  color: #000;
+}
+.gallery__content__box--title {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.gallery__content__box--text {
+  font-size: 0.8em;
 }
 
 .main__feature-services {
