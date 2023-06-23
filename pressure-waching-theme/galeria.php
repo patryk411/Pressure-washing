@@ -10,19 +10,35 @@
     </div>
 </div>
 
-<section class="gallery py-5">
+
+<section class="gallery">
     <div class="container">
-        <div class="row m-0 p-0">
-            <div class="gallery__content">
-                <div class="gallery__content__box col-md-12 col-lg-8">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="" class="gallery__content__box--img">
-                    <h3 class="gallery__content__box--title">Lorem, ipsum dolor.</h3>
-                    <p class="gallery__content__box--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut quam corporis et excepturi distinctio.</p>
+      <div class="gallery__content">
+              <div class="row m-0 p-0">
+<?php
+        $galleryRealization = new WP_Query(array(
+          'posts_per_page' => 5,
+          'post_type' => 'realization'
+        ));
+
+        while($galleryRealization->have_posts()) {
+          $galleryRealization->the_post();?>
+
+                <div class="gallery__content__box col-sm-12 col-lg-6">
+                <img src="<?php $galleryImg = get_field('img_card'); echo $galleryImg['url'] ?>" class="card-img-top" alt="...">
+                    <h3 class="gallery__content__box--title"><?php the_title();?></h3>
+                    <p class="gallery__content__box--text gallery__content__box--single-realization"><?php echo wp_trim_words(get_the_content(), 15); ?></p>
+                    <a href="<?php the_permalink(); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Czytaj więcej</span></button></a>
                 </div>
-            </div>
-        </div>
-    </div>
+                
+<?php }
+?>
+
+</div>
+</div>
+</div>
 </section>
+
 
 
 

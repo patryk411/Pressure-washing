@@ -17,6 +17,7 @@
                 <p class="section-baner__content__left--text"><?php the_content(); ?></p>
                 <?php the_post_thumbnail(); ?>
         </div>
+
         <div class="section-baner__content__right col-lg-4 col-sm-12 py-5">
         <div class="section-baner__content__right col-md-12 col-lg m-0 p-0">
                     <div class="section-baner__content__right__top">
@@ -53,8 +54,11 @@
                   </div>
                 </div>
               </div>
-              </div>            
-        </div>
+              </div> 
+              
+              
+
+      </div>
         </div>
         </div>
 
