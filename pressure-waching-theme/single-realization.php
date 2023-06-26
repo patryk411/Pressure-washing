@@ -10,10 +10,10 @@
 </div>
 
 
-<section class="gallery-single py-5">
+<section class="gallery-single mb-5">
     <div class="container">
         <div class="gallery-single__content m-0 p-0">
-                <div class="row m-0 p-0">
+                <div class="row m-0">
 
                 <div class="gallery-single__content__box col-md-12 col-lg-8">
                 <img src="<?php $galleryImg = get_field('img_card'); echo $galleryImg['url'] ?>" class="card-img-top realization-img" alt="...">

@@ -983,4 +983,91 @@
 			}
 		}
 	}
+
+	.contact {
+		color: #000;
+		&__content {
+			margin-top: 0px;
+			&__top {
+				display: flex;
+				flex-direction: column;
+				&__box {
+					display: flex;
+					flex-direction: row;
+					font-size: 2em;
+					padding: 20px 20px;
+					i {
+						font-size: 3em;
+					}
+
+					&__text {
+						display: flex;
+						flex-direction: column;
+						padding-left: 30px;
+						&--heading {
+							font-size: 1em;
+							font-weight: bold;
+						}
+
+						&--text {
+							font-size: 1.3em;
+						}
+					}
+				}
+			}
+
+			&--head-one {
+				font-weight: bold;
+				font-size: 4.5em;
+				text-align: left;
+				margin: 50px 0 20px;
+			}
+
+			&__form {
+				.input-box {
+					padding: 0 10px;
+					input,
+					textarea {
+						color: #000;
+						border: none;
+						border-bottom: 2px solid #999;
+						font-size: 2em;
+						padding: 20px;
+						margin: 10px 0;
+					}
+
+					textarea {
+						margin-top: 40px;
+					}
+
+					.form-control::placeholder {
+						font-size: 1em;
+						font-weight: bold;
+						color: #000;
+					}
+
+					input:focus,
+					textarea:focus {
+						border-bottom: 2px solid gold;
+					}
+				}
+
+				.btn-box {
+					.btn-nav {
+						margin-top: 40px;
+						@include main-btn-lg;
+						font-size: 2.2em;
+						font-weight: bold;
+						width: 50%;
+					}
+				}
+			}
+		}
+
+		&__google-map {
+			margin-top: 80px;
+			background-color: red;
+			height: 60vh;
+		}
+	}
 }
