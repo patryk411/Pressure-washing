@@ -24,8 +24,8 @@
 
 
   
-        <?php echo do_shortcode('[sp_easyaccordion id="51"]'); ?>
-    </div>
+        <?php echo do_shortcode('[sp_easyaccordion id="37"]'); ?>    
+      </div>
 
 
     <div class="faqs__right col-md-12 col-lg-4">
