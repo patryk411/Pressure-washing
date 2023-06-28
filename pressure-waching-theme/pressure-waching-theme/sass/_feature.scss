@@ -1,0 +1,67 @@
+&__feature-services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	.box-one:nth-child(odd) {
+		padding-top: 40px;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 400px;
+		padding-top: 70px;
+		height: 700px;
+		color: #fff;
+		background-color: #13277d;
+		transition: background-color 0.3s;
+
+		&--heading {
+			margin: 30px 0;
+			font-size: 3em;
+		}
+
+		&--text {
+			margin: 40px 0 50px;
+			font-size: 2em;
+			text-align: center;
+		}
+
+		.fa-house {
+			font-size: 6em;
+			text-align: center;
+			margin: 20px 0;
+		}
+
+		.fa-arrow-right {
+			font-size: 2em;
+			text-align: center;
+			margin: 20px 0;
+		}
+
+		.line {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			.lines {
+				height: 3px;
+				width: 70px;
+				margin: 20px 7px;
+				text-decoration: line-through;
+				color: #fff;
+				background-color: #fff;
+			}
+			.lines:nth-child(odd) {
+				width: 30px;
+			}
+		}
+	}
+
+	&__box:hover {
+		background-color: #2646d4;
+	}
+}
