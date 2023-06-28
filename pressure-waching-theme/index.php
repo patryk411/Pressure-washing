@@ -49,38 +49,38 @@
       <div class="row m-0 p-0">
 
         <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
-          <i class="fa-solid fa-house"></i>          
-          <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
+        <i class="fa-solid fa-house feature-icon"></i>
+        <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
           <span class="lines"></span>
           <span class="lines"></span>
           <span class="lines"></span>
           </div>
-          <p class="main__feature-services__box--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi et doloribus nemo sapiente accusantium architecto, excepturi laudantium aspernatur at!</p>
+          <p class="main__feature-services__box--text">Zespół naszej firmy specjalizuje się w kompleksowym czyszczeniu podjazdów i elewacji. Wykorzystujemy zaawansowany sprzęt i skuteczne środki chemiczne, które gwarantują doskonałe efekty czyszczenia.</p>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
 
         <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
-          <i class="fa-solid fa-house"></i>          
-          <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
+        <i class="fa-sharp fa-solid fa-calendar-days feature-icon"></i>          
+        <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
           <span class="lines"></span>
           <span class="lines"></span>
           <span class="lines"></span>
           </div>
-          <p class="main__feature-services__box--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi et doloribus nemo sapiente accusantium architecto, excepturi laudantium aspernatur at!</p>
+          <p class="main__feature-services__box--text">Nasza firma jest elastyczna pod względem ustalania harmonogramu prac. Dokładamy wszelkich starań, aby dostosować się do preferencji klienta oraz uwzględnić prognozy pogody.</p>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
         
         <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
-          <i class="fa-solid fa-house"></i>          
-          <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
+        <i class="fa-solid fa-book feature-icon"></i> 
+        <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
           <span class="lines"></span>
           <span class="lines"></span>
           <span class="lines"></span>
           </div>
-          <p class="main__feature-services__box--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi et doloribus nemo sapiente accusantium architecto, excepturi laudantium aspernatur at!</p>
+          <p class="main__feature-services__box--text">Przed przystąpieniem do działań zawsze poświęcamy czas i uwagę na dokładne zrozumienie Twoich oczekiwań. Chcemy zapewnić Ci usługę, która w pełni odpowiada Twoim potrzebom i spełnia Twoje oczekiwania.</p>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
       </div>

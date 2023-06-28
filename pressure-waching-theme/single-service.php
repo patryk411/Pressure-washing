@@ -73,10 +73,39 @@
                 <?php the_title(); ?>
             </h3>
             <div class="line py-5">
-            <span class="lines"></span>
-            <span class="section-name">Galeria Usługi</span>
-            <span class="lines"></span>
+              <span class="lines"></span>
+              <span class="section-name">Galeria Usługi</span>
+              <span class="lines"></span>
+            </div>
+            
+            <div class="section-baner__service-gallery__carousel">
+                
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                    <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="8000">
+                    <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" alt="...">
+                    </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
           </div>
+            
+            
+            </div> 
+            </div>
+
         </div>
     </div>
 </div>

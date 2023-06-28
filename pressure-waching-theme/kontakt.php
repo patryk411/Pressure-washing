@@ -65,7 +65,9 @@
     </div>
   </div>
 </div>
-<div class="contact__google-map">asdasd</div>
+<div class="contact__google-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.4790600064!2d19.244187415711167!3d49.889808779401974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169b2bdd279c75%3A0x6add1938e094668a!2sFotografia%20%C5%9Blubna%20-%20Studio%20Collective!5e0!3m2!1spl!2spl!4v1687950030686!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 </div>
 
 

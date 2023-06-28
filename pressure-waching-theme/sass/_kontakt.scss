@@ -77,8 +77,10 @@
 	}
 
 	&__google-map {
-		margin-top: 80px;
-		background-color: red;
-		height: 60vh;
+		iframe {
+			margin-top: 80px;
+			height: 60vh;
+			width: 100%;
+		}
 	}
 }
