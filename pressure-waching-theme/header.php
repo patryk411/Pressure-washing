@@ -22,22 +22,21 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo("template_directory"); ?>/css/style.css" />
     <?php wp_head(); ?>
-
 </head>
-<body>
+<body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
+<!-- <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
   <div class="container">
-    <a class="navbar-brand" href="<?php echo site_url('/home-4'); ?>">
+    <a class="navbar-brand" href="<?php echo site_url('/home'); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
 </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home-4'); ?>">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home'); ?>">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/o-nas'); ?>">O nas</a>
@@ -70,9 +69,9 @@
         </li>
     </ul>
     </div>
-    <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button></a>
+    <!-- <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button></a> -->
   </div>
-</nav>
+</nav> -->
  
 
 <?php 

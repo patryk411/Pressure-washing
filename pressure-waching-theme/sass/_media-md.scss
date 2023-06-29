@@ -1,4 +1,60 @@
 @media (max-width: 1100px) {
+
+	.navbar {
+		position: relative;
+		font-size: 2.6em;
+		background: transparent;
+		z-index: 10;
+	
+		.btn-nav {
+	
+			.btn-text {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				font-size: 0.9em;
+			}
+		}
+	
+		.navbar-brand {
+			text-decoration: none;
+			color: #fff;
+	
+			img {
+				font-size: 0.2em;
+			}
+		}
+	
+		.navbar-collapse {
+			font-family: 'Kaushan Script', cursive;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			.navbar-nav {
+				.nav-item {
+					list-style: none;
+					.nav-link {
+						margin: 0 20px;
+						color: #fff;
+						text-decoration: none;
+	
+						i {
+							color: #fff;
+							font-size: 0.5em;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.shadow-bg {
+		background-color: rgba(0, 158, 255);
+	}	
+
+
 	.header {
 		font-family: 'Poppins', sans-serif;
 

@@ -16,9 +16,14 @@ body {
 }
 
 .navbar {
+  position: relative;
   font-size: 2.6em;
   background: transparent;
   z-index: 10;
+}
+.navbar .fa-bars {
+  padding: 15px;
+  font-size: 2em;
 }
 .navbar .btn-nav {
   font-size: 0.8em;
@@ -384,20 +389,20 @@ body {
   top: -4px;
   left: 15px;
 }
-.faqs__left #sp-ea-37.sp-easy-accordion > .sp-ea-single {
+.faqs__left #sp-ea-51.sp-easy-accordion > .sp-ea-single {
   border: none;
   background-color: #fff;
   margin: 20px 0;
 }
-.faqs__left #sp-ea-37.sp-easy-accordion > .sp-ea-single > .ea-header a .ea-expand-icon.fa {
+.faqs__left #sp-ea-51.sp-easy-accordion > .sp-ea-single > .ea-header a .ea-expand-icon.fa {
   position: relative;
   right: -95%;
 }
-.faqs__left #sp-ea-37.sp-easy-accordion > .sp-ea-single > .ea-header a {
+.faqs__left #sp-ea-51.sp-easy-accordion > .sp-ea-single > .ea-header a {
   color: #009eff;
   font-size: 1.3em;
 }
-.faqs__left #sp-ea-37.sp-easy-accordion > .sp-ea-single > .sp-collapse > .ea-body {
+.faqs__left #sp-ea-51.sp-easy-accordion > .sp-ea-single > .sp-collapse > .ea-body {
   margin: 0 20px;
 }
 .faqs__right--heading {
@@ -767,7 +772,7 @@ body {
   text-align: center;
 }
 .main__feature-services__box .feature-icon {
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
   margin: 20px 0;
 }
@@ -932,7 +937,7 @@ body {
   text-decoration: none;
   color: #000;
 }
-.main__services__content__box__main .active-card {
+.main__services__content__box__main .card .active-card {
   background-color: #009eff;
   color: #fff;
   cursor: pointer;
@@ -1196,6 +1201,48 @@ body {
 }
 
 @media (max-width: 1100px) {
+  .navbar {
+    position: relative;
+    font-size: 2.6em;
+    background: transparent;
+    z-index: 10;
+  }
+  .navbar .btn-nav .btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9em;
+  }
+  .navbar .navbar-brand {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar .navbar-brand img {
+    font-size: 0.2em;
+  }
+  .navbar .navbar-collapse {
+    font-family: "Kaushan Script", cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    list-style: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+    color: #fff;
+    font-size: 0.5em;
+  }
+  .shadow-bg {
+    background-color: rgb(0, 158, 255);
+  }
   .header {
     font-family: "Poppins", sans-serif;
   }

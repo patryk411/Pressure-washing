@@ -14,17 +14,18 @@
 			&__main {
 				.card {
 					border: none;
-
+					
 					.card-img-top {
 						width: 100%;
 						height: 300px;
 					}
-
+					
 					.card-body {
 						color: #000;
 						width: 100%;
 						height: 100%;
 						padding: 30px;
+						
 
 						.card-head {
 							font-size: 2.4em;
@@ -65,13 +66,14 @@
 							}
 						}
 					}
+
+					.active-card {
+						background-color: #009eff;
+						color: #fff;
+						cursor: pointer;
+					}
 				}
 
-				.active-card {
-					background-color: #009eff;
-					color: #fff;
-					cursor: pointer;
-				}
 			}
 		}
 	}
