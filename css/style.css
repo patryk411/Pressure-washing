@@ -937,7 +937,7 @@ body {
   text-decoration: none;
   color: #000;
 }
-.main__services__content__box__main .active-card {
+.main__services__content__box__main .card .active-card {
   background-color: #009eff;
   color: #fff;
   cursor: pointer;

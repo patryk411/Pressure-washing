@@ -25,9 +25,9 @@
 </head>
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
+<!-- <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
   <div class="container">
-    <a class="navbar-brand" href="<?php echo site_url('/home-4'); ?>">
+    <a class="navbar-brand" href="<?php echo site_url('/home'); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home-4'); ?>">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?php echo site_url('/home'); ?>">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/o-nas'); ?>">O nas</a>
@@ -71,7 +71,7 @@
     </div>
     <!-- <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Wycena</span></button></a> -->
   </div>
-</nav>
+</nav> -->
  
 
 <?php 

@@ -127,7 +127,7 @@ while($aboutPost->have_posts()) {
 </div>
 
 
-     <div class="main__services py-5">
+     <div id="service" class="main__services py-5">
        <div class="container-fluid m-0 p-0">
       <div class="main__services__content">
         <h3 class="main__services__content--section-heading">
@@ -136,16 +136,16 @@ while($aboutPost->have_posts()) {
         <div class="container">
         <div class="row d-flex justify-content-evenly m-0 p-0">
           
-        <?php
+          <?php
         $homepageEvents = new WP_Query(array(
           'posts_per_page' => 5,
           'post_type' => 'service'
         ));
-
+        
         while($homepageEvents->have_posts()) {
           $homepageEvents->the_post();?>
-          <div class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
-            <div class="main__services__content__box__main">
+          <div id="active-box" class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+          <div class="main__services__content__box__main">
             <div class="card">
               <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
               <div class="card-body">
@@ -156,8 +156,8 @@ while($aboutPost->have_posts()) {
               </div>
             </div>
             </div>
-          </div>
-          <?php }
+            </div>
+            <?php }
         ?>
 
         
