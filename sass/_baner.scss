@@ -1,0 +1,26 @@
+&__banner-section {
+	position: relative;
+	&__content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #ffc600;
+		color: #000;
+		text-align: center;
+		padding: 100px 50px 50px;
+		width: 80%;
+
+		&--text {
+			font-size: 1.8em;
+			font-weight: bold;
+			margin: 70px 0 30px;
+		}
+
+		&--head {
+			font-weight: bold;
+			margin: 30px 0 50px;
+			font-size: 6em;
+		}
+	}
+}
