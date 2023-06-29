@@ -16,6 +16,7 @@ body {
 }
 
 .navbar {
+  position: relative;
   font-size: 2.6em;
   background: transparent;
   z-index: 10;
