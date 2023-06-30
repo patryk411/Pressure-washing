@@ -60,6 +60,7 @@ function handleScroll() {
     countTo50();
     window.removeEventListener('scroll', handleScroll);
   }
+  console.log(window.scrollY);
 }
 
 window.addEventListener('scroll', handleScroll);
