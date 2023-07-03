@@ -70,8 +70,38 @@ body {
   font-size: 0.5em;
 }
 
+.dropdown .dropdown-menu {
+  border: none;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+}
+.dropdown .dropdown-menu .dropdown-item {
+  color: #fff;
+  padding-left: 25px;
+  font-size: 1.5em;
+  transition: 0.5s color;
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+  color: #ffc600;
+  background-color: transparent;
+}
+
 .shadow-bg {
   background-color: rgb(0, 158, 255);
+}
+.shadow-bg .dropdown-menu {
+  border: none;
+  background-color: rgb(0, 158, 255);
+}
+.shadow-bg .dropdown-menu .dropdown-item {
+  color: #fff;
+  padding-left: 25px;
+  font-size: 2em;
+  transition: 0.5s color;
+}
+.shadow-bg .dropdown-menu .dropdown-item:hover {
+  color: gold;
+  background-color: transparent;
 }
 
 .header {
@@ -1210,6 +1240,7 @@ body {
   }
   .navbar .btn-nav {
     margin-left: 0px;
+    margin: 20px 0;
   }
   .navbar .btn-nav .btn-text {
     display: flex;
@@ -1246,6 +1277,21 @@ body {
   }
   .shadow-bg {
     background-color: rgb(0, 158, 255);
+  }
+  .dropdown .dropdown-menu {
+    border: none;
+    background: transparent;
+  }
+  .dropdown .dropdown-menu .dropdown-item {
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 30px;
+    width: 100%;
+    font-size: 2em;
+    transition: 0.5s color;
+  }
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ffc600;
+    background-color: transparent;
   }
   .header {
     font-family: "Poppins", sans-serif;
@@ -2284,7 +2330,6 @@ body {
   }
   .contact__google-map {
     margin-top: 80px;
-    background-color: red;
     height: 60vh;
   }
 }
@@ -2340,6 +2385,21 @@ body {
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
     color: #fff;
     font-size: 0.5em;
+  }
+  .dropdown .dropdown-menu {
+    border: none;
+    background: transparent;
+  }
+  .dropdown .dropdown-menu .dropdown-item {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    width: 100%;
+    font-size: 2em;
+    transition: 0.5s color;
+  }
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ffc600;
+    background-color: transparent;
   }
   .header {
     font-family: "Poppins", sans-serif;
@@ -3333,7 +3393,6 @@ body {
   }
   .contact__google-map {
     margin-top: 80px;
-    background-color: red;
     height: 60vh;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -60,6 +60,24 @@
 		}
 	}	
 
+	.dropdown {
+		.dropdown-menu {
+			border: none;
+			background: transparent;
+			.dropdown-item {
+				color: rgba(255,255,255, .7);
+				text-align: justify;
+				width: 100%;
+				font-size: 2em;
+				transition: .5s color;
+			}
+			.dropdown-item:hover {
+				color: #ffc600;
+				background-color: transparent;
+			}
+		}
+	}
+
 	.header {
 		font-family: 'Poppins', sans-serif;
 
@@ -1116,7 +1134,6 @@
 
 		&__google-map {
 			margin-top: 80px;
-			background-color: red;
 			height: 60vh;
 		}
 	}

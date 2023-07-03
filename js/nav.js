@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	const nav = document.querySelector('.navbar')
+	const drpdwn = document.querySelector('.dropdown-menu')
 
 	function addShadow() {
 		if (window.scrollY >= 300) {
@@ -8,8 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
 			nav.classList.remove('shadow-bg')
 		}
 	}
+
+
 	window.addEventListener('scroll', addShadow)
 })
+
+
 
 const btnBrgr = document.querySelector('.navbar-toggler');
 const nav = document.querySelector('.navbar-collapse');

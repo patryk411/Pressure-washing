@@ -59,9 +59,43 @@
 				}
 			}
 		}
+
+	}
+}
+
+.dropdown {
+	.dropdown-menu {
+		border: none;
+		background: transparent;
+		background: rgba(0,0,0, .5);
+		.dropdown-item {
+			color: #fff;
+			padding-left: 25px;
+			font-size: 1.5em;
+			transition: .5s color;
+		}
+		.dropdown-item:hover {
+			color: #ffc600;
+			background-color: transparent;
+		}
 	}
 }
 
 .shadow-bg {
 	background-color: rgba(0, 158, 255);
+
+	.dropdown-menu {
+		border: none;
+				background-color: rgba(0, 158, 255);
+				.dropdown-item {
+					color: #fff;
+					padding-left: 25px;
+					font-size: 2em;
+					transition: .5s color;
+				}
+				.dropdown-item:hover {
+					color: gold;
+					background-color: transparent;
+				}
+			}
 }

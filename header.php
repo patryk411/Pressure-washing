@@ -24,7 +24,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg py-4 position-fixed fixed-top w-100">
+<nav class="navbar navbar-expand-lg  position-fixed fixed-top w-100">
   <div class="container">
     <a class="navbar-brand" href="<?php echo site_url('/home'); ?>">
     <img src="<?php echo get_template_directory_uri(); ?>/img/prowash.png" width="150" height="100" />
@@ -40,7 +40,7 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/o-nas'); ?>">O nas</a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
             <a class="nav-link" href="<?php echo site_url('/oferta'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Oferta
                 <i class="fa-solid fa-chevron-down"></i>  
@@ -55,7 +55,33 @@
             <li><a class="dropdown-item" href="<?php the_permalink() ?>">Usługa 5</a></li>
 
         </ul>
-      </li>
+      </li> -->
+
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="<?php echo site_url('/oferta'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Oferta
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <?php
+            $services = new WP_Query(array(
+              'post_type' => 'service',
+              'posts_per_page' => -1,
+            ));
+
+            while ($services->have_posts()) {
+              $services->the_post();
+              ?>
+              <li><a class="dropdown-item" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <?php
+            }
+            wp_reset_postdata();
+            ?>
+          </ul>
+        </li>
+
+
 
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/faqs'); ?>">FAQs</a>

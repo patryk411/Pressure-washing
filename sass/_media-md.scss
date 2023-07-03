@@ -15,6 +15,7 @@
 				flex-direction: column;
 				font-size: 0.9em;
 			}
+			margin: 20px 0;
 		}
 	
 		.navbar-brand {
@@ -53,6 +54,24 @@
 	.shadow-bg {
 		background-color: rgba(0, 158, 255);
 	}	
+
+	.dropdown {
+		.dropdown-menu {
+			border: none;
+			background: transparent;
+			.dropdown-item {
+				color: rgba(255,255,255, .7);
+				padding-left: 30px;
+				width: 100%;
+				font-size: 2em;
+				transition: .5s color;
+			}
+			.dropdown-item:hover {
+				color: #ffc600;
+				background-color: transparent;
+			}
+		}
+	}
 
 
 	.header {
@@ -1133,7 +1152,6 @@
 
 		&__google-map {
 			margin-top: 80px;
-			background-color: red;
 			height: 60vh;
 		}
 	}
