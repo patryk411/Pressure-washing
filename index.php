@@ -8,7 +8,7 @@
         <img class="carousel-img" src="<?php echo get_template_directory_uri(); ?>/img/mycie3.jpg" alt="...">
         <div class="carousel-shadow"></div>
         <div class="carousel-caption d-none d-md-block">
-          <p>Some representative placeholder content</p>
+          <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">Some representative placeholder content</p>
           <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
         </div>
       </div>
@@ -48,7 +48,7 @@
     <div class="main__feature-services">
       <div class="row m-0 p-0">
 
-        <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
+        <div class="main__feature-services__box box-one col-sm-12 col-lg-4" data-aos="flip-left" data-aos-delay="150">
         <i class="fa-solid fa-house feature-icon"></i>
         <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
@@ -60,7 +60,7 @@
           <i class="fa-solid fa-arrow-right"></i>
         </div>
 
-        <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
+        <div class="main__feature-services__box box-one col-sm-12 col-lg-4" data-aos="flip-left" data-aos-delay="550">
         <i class="fa-sharp fa-solid fa-calendar-days feature-icon"></i>          
         <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
@@ -72,7 +72,7 @@
           <i class="fa-solid fa-arrow-right"></i>
         </div>
         
-        <div class="main__feature-services__box box-one col-sm-12 col-lg-4">
+        <div class="main__feature-services__box box-one col-sm-12 col-lg-4" data-aos="flip-right" data-aos-delay="350">
         <i class="fa-solid fa-book feature-icon"></i> 
         <h3 class="main__feature-services__box--heading">Lorem, ipsum dolor.</h3>
           <div class="line">
@@ -144,7 +144,7 @@ while($aboutPost->have_posts()) {
         
         while($homepageEvents->have_posts()) {
           $homepageEvents->the_post();?>
-          <div id="active-box" class="main__services__content__box col-sm-12 col-md-6 col-lg-6">
+          <div id="active-box" class="main__services__content__box col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="750" data-aos-delay="250">
           <div class="main__services__content__box__main">
             <div class="card">
               <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
@@ -174,7 +174,7 @@ while($aboutPost->have_posts()) {
             <div class="row m-0 p-0">
             <div class="main__statistic__hero-img__content">
               
-              <div class="main__statistic__hero-img__content__left-section col-sm-12 col-lg-6 py-5">
+              <div class="main__statistic__hero-img__content__left-section col-sm-12 col-lg-6 py-5" data-aos="fade-right" data-aos-duration="1000">
                 <div class="main__statistic__hero-img__content__left-section__single-box">
                   <h3 class="main__statistic__hero-img__content__left-section__single-box--title py-5">
                     Lorem, ipsum dolor.

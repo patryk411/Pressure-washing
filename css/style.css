@@ -168,6 +168,10 @@ body {
   background-color: gold;
 }
 
+.bounce-top {
+  animation: bounce-top 2s linear infinite both;
+}
+
 .footer {
   background-color: #0a1026;
 }

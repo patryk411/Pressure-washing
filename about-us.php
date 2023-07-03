@@ -30,12 +30,12 @@ while($aboutPost->have_posts()) {
   $aboutPost->the_post();?>
 
 
-  <div class="main__about-section__content__left-section col-sm-12 col-lg-5">
+  <div class="main__about-section__content__left-section col-sm-12 col-lg-5" data-aos="fade-right" data-aos-delay="300">
         <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
             </div>
             <div class="main__about-section__content__right-section col-sm-2 col-lg-1 d-none d-lg-block d-xl-block d-xxl-block">
               </div>
-              <div class="main__about-section__content__right-section col-sm-12 col-lg-5">
+              <div class="main__about-section__content__right-section col-sm-12 col-lg-5" data-aos="fade-left" data-aos-delay="600">
                 <h3 class="main__about-section__content__right-section--heading">Rozpocznijmy współpracę!</h3>
                 <h5 class="main__about-section__content__right-section--head">
                   <div class="line">
