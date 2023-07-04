@@ -46,7 +46,7 @@
   <script>
     AOS.init({
       startEvent: 'DOMContentLoaded',    
-      offset: 200,
+      offset: 50,
       once: false,
     });
     </script>

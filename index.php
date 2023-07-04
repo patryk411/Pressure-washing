@@ -9,7 +9,7 @@
         <div class="carousel-shadow"></div>
         <div class="carousel-caption d-none d-md-block">
           <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">Some representative placeholder content</p>
-          <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
+          <a href="<?php echo site_url('/kontakt'); ?>"><button class="btn btn-nav bounce-top" type="submit"><span class="btn-text">Napisz do nas!</span></button></a>
         </div>
       </div>
       <div class="carousel-item">
@@ -144,7 +144,7 @@ while($aboutPost->have_posts()) {
         
         while($homepageEvents->have_posts()) {
           $homepageEvents->the_post();?>
-          <div id="active-box" class="main__services__content__box col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="750" data-aos-delay="250">
+          <div id="active-box" class="main__services__content__box col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="350" data-aos-delay="150">
           <div class="main__services__content__box__main">
             <div class="card">
               <img src="<?php $pageBannerImage = get_field('img_card'); echo $pageBannerImage['url'] ?>" class="card-img-top" alt="...">
