@@ -45,6 +45,10 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
+      disable: function () {
+                var maxWidth = 768;
+                return window.innerWidth < maxWidth;
+            },
       startEvent: 'DOMContentLoaded',    
       offset: 50,
       once: false,
